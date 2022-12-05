@@ -1,0 +1,209 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@font-face {
+    font-family: Cyber;
+    src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+    font-display: swap;
+}
+
+body {
+    background: #eeeeee;
+    font-family: Cyber;
+}
+
+.cart {
+    padding-top: 50px;
+    text-align: center;
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.avatar {
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 3px 4px 5px 3px;
+}
+
+.student_info {
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+.student_info_text {
+    font-size: 25px;
+    padding-left: 40px;
+    text-align: start;
+}
+
+.target {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.target ul {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.target li::before {
+    content: "-";
+    padding-inline-start: 1ch;
+    padding: 10px;
+}
+
+
+.time {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.time ul {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+}
+
+.day ul {
+    text-align: start;
+}
+
+.hours {
+    margin-left: 50px;
+}
+
+.courses {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 900px;
+}
+
+table {
+    min-width: 900px;
+}
+
+.table {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+thead th {
+    border-bottom: 3px solid #7edbee;
+    padding-bottom: 10px;
+}
+
+tbody td {
+    padding-top: 15px;
+}
+
+.contacts {
+    padding-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.contacts h2 {
+    margin: 0 0 40px 0;
+}
+
+.links {
+    word-spacing: 120px;
+    padding-bottom: 80px;
+}
+
+.links_img {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0 30px 0;
+}
+
+.links_img :nth-child(1) {
+    padding-left: 25px;
+}
+
+.links_img :nth-child(2) {
+    padding-left: 65px;
+}
+
+.links_img :nth-child(3) {
+    padding-left: 20px;
+}
+
+.links_img :nth-child(4) {
+    padding-right: 10px;
+}
+
+.links_text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links_text>a {
+    color: #d5ad16;
+}
+
+.links_text>a:hover {
+    color: #d9179b;
+}
+
+
+
+
+
+
+
